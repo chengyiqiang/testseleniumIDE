@@ -16,7 +16,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class testhahaV2 {
+public class testURTV2 {
 
 	/**
 	 * @param args
@@ -28,7 +28,7 @@ public class testhahaV2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		testhahaV2 tv2 = new testhahaV2();
+		testURTV2 tv2 = new testURTV2();
 		try{
 			tv2.openFirefox();
 			tv2.init();
