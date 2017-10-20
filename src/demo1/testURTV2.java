@@ -30,7 +30,7 @@ public class testURTV2 {
 		
 		testURTV2 tv2 = new testURTV2();
 		try{
-			tv2.openFirefox();
+			tv2.openChrome();
 			tv2.init();
 			tv2.login("chengyiqiang","123456");  //正确的账号密码
 			Thread.sleep(2000);
@@ -56,8 +56,8 @@ public class testURTV2 {
 	
 	//打开
 	public void init() throws Exception {
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
+//		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+//		driver.manage().window().maximize();
 		driver.get("http://192.168.50.199:800/pts/home.aspx");
 	}
 	

@@ -104,7 +104,7 @@ public class testhahaV2 {
 		driver.findElement(By.id("ctl00_CP1_FileUpload1")).click(); //不可用，找原因中................
 		Thread.sleep(3000);
 		Robot robot = new Robot();
-		robot.keyPress(KeyEvent.VK_C);
+		robot.keyPress(KeyEvent.VK_C); 
 		robot.keyRelease(KeyEvent.VK_C);
 		
 //		driver.findElement(By.id("ctl00_CP1_FileUpload1")).sendKeys("C:\\Users\\Fernando\\Desktop\\应用宝截屏\\自动化测试截图\\20170301112744.jpg");
