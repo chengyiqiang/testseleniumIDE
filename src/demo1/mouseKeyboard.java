@@ -19,6 +19,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
+import bsh.This;
+
 public class mouseKeyboard {
 	
 	private WebDriver driver;
@@ -32,10 +34,12 @@ public class mouseKeyboard {
       mouseKeyboard mk=new mouseKeyboard();
       try{
     	  mk.init();
+    	  mk.action.keyDown(Keys.CONTROL);
+
 //    	  mk.click();
-    	  mk.switchlable();
-    	  mk.screenShot();
-    	  mk.quit();
+//    	  mk.switchlable();
+//    	  mk.screenShot();
+//    	  mk.quit();
 //    	  mk.switchLable();
 //    	  mk.login();
     	  
